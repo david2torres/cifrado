@@ -67,6 +67,11 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "cifrado:build",
+            "host": "0.0.0.0",
+            "port": 1738
+          },
           "configurations": {
             "production": {
               "browserTarget": "cifrado:build:production"
@@ -103,5 +108,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "332815d2-3b96-4887-801d-f2fd18876883"
   }
 }
