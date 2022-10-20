@@ -67,6 +67,11 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "cifrado:build",
+            "host": "127.0.0.1",
+            "port": 4200
+          },
           "configurations": {
             "production": {
               "browserTarget": "cifrado:build:production"
